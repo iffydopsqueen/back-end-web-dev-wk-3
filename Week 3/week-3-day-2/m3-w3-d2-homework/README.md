@@ -304,6 +304,10 @@ Now we can compile our SASS files to CSS.
 
     ```bash
     npm run scss
+
+    # OR 
+
+    npm start
     ```
 
 - In our case, our compiled CSS files will be outputted to the CSS directoy. [Check your `package.json`]
