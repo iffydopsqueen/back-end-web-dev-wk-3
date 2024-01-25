@@ -300,7 +300,7 @@ I have some optional packages that are not needed, some of them are just for con
 
 Now we can compile our SASS files to CSS. 
 
-- Run this command in your terminal to compile the SASS files (*.scss) located in the scss directory. Make sure to be in the directory where the `package.json` file resides when running the command.
+- Run this command in your terminal to compile the SASS files (***.scss**) located in the `scss/` directory. Make sure to be in the directory where the `package.json` file resides when running the command.
 
     ```bash
     npm run scss
