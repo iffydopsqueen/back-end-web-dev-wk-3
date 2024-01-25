@@ -11,11 +11,11 @@
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\" "
   },
-  "author": "Your Name",
+  "author": "IE",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0",
-    "node-sass": "7.0.1",
+    "node-sass": "^9.0.0",
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.1"
   },
