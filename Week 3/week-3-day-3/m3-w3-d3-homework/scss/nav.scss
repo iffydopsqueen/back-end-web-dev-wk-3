@@ -1,0 +1,29 @@
+// Importing the content of the "colors.scss" file 
+
+@import "colors.scss";
+
+/* Nest Nav */
+nav {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        margin-top: 15px;
+        margin-left: 40px;
+
+        li {
+            font-family: Arial, Helvetica, Sans-Serif;
+            display: inline;
+            color: $link-color;
+            cursor: pointer;
+
+            a {
+                text-decoration: none;
+                color: $link-color;
+
+                &:hover {
+                    color: $link-hover-color;
+                }
+            }
+        }
+    }
+}
