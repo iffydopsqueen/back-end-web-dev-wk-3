@@ -1,5 +1,4 @@
 // Variables 
-
 $font-family: Verdana, sans-serif;
 $font-size: 15px;
 $line-height: 1.5;
@@ -8,8 +7,6 @@ $background-color: #000;
 $text-color: #fff;
 $button-background: #f1f1f1;
 $button-hover-background: #4CAF50;
-
-// Using the "@extend" directive
 
 .globalstyles, html, body {
     font-family: $font-family;
@@ -22,8 +19,8 @@ $button-hover-background: #4CAF50;
     width: 33.33333%;
     margin-bottom: 16px !important;
     
-    &:hover {
-        @extend .card-shadow;
+    .card-shadow:hover {
+      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
     }
   
     .card-info {
@@ -80,9 +77,4 @@ $button-hover-background: #4CAF50;
         padding-top: 32px !important;
         padding-bottom: 32px !important;
       }
-}
-
-// this is not producing properly on CSS with the hover state
-.card-shadow {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
