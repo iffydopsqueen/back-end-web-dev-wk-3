@@ -52,6 +52,24 @@ function update() {
 function checkCollisions(item) {
   // TODO: detect collision with all walls and make pacman bounce
   
+  // Get the boundaries of the game area
+  const gameWidth = 200;
+  const gameHeight = 200;
+
+  const pacmanSize = 100;    // calculate the size of the pacman image (assuming it's square)
+
+  // Check for collisions with the left and right walls 
+  if (item.position.x + item.velocity.x + pacmanSize > gameWidth || item.position.x + item.velocity.x < 0) {
+    // reverse the x velocity to make Pacman bounce off the walls 
+    item.velocity.x = -item.velocity.x;
+  }
+
+  // Check for collisions with the top and bottom walls 
+  if(item.position.y + item.velocity.y + pacmanSize > gameHeight || item.position.y + item.velocity.y < 0) {
+    // reverse the y velocity to make Pacman bounce off the walls
+    item.velocity.y = -item.velocity.y;
+  }
+  
 }
 
 function makeOne() {
