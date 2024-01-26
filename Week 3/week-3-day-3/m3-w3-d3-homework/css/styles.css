@@ -1,0 +1,99 @@
+/* Nest Nav */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 40px; }
+nav ul li {
+  font-family: Arial, Helvetica, Sans-Serif;
+  display: inline;
+  color: white;
+  cursor: pointer; }
+
+nav ul li a {
+  text-decoration: none;
+  color: white; }
+
+nav ul li a:hover {
+  color: #daaa0e; }
+
+body {
+  background-color: #daaa0e;
+  margin: 0 10px;
+  padding: 0;
+  min-height: 100vh; }
+
+/* Nest Main */
+main {
+  width: 1350px;
+  min-height: 535px;
+  background-color: white;
+  display: flex;
+  margin: 35px 5px 20px 10px;
+  padding: 0 20px; }
+
+main #intro-text {
+  background-color: #d4d5d8;
+  width: 35%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+main #intro-text span {
+  font-family: 'Sacramento', cursive;
+  font-size: 25px;
+  color: #313130; }
+
+main #intro-text h3, main #intro-text p, main #intro-text button {
+  font-family: Arial, Helvetica, Sans-Serif;
+  color: #313130;
+  text-align: center; }
+
+main #intro-text button {
+  font-family: Arial, Helvetica, Sans-Serif;
+  color: white;
+  background-color: #daaa0e;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-top: 20px; }
+
+main #intro-text button:hover {
+  background-color: #b88e0c; }
+
+main #intro-text p {
+  font-size: 12px; }
+
+main #intro-text h3 {
+  font-size: 25px; }
+
+main #intro-image {
+  width: 65%;
+  margin: 20px 0; }
+
+main #intro-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+footer {
+  font-family: Arial, Helvetica, Sans-Serif;
+  color: #313130;
+  margin-left: 40px;
+  font-size: 14px; }
+
+button.submit-buttton {
+  font-family: Arial, Helvetica, Sans-Serif;
+  color: white;
+  background-color: #daaa0e;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer; }
+
+button.submit-buttton:hover {
+  background-color: #b88e0c; }
